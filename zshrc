@@ -24,3 +24,38 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Bash
+alias confzsh="vim ~/.zshrc;source ~/.zshrc"
+alias ll="ls -ll"
+
+# Mount Challenge
+alias mountchallenge="mount -t vboxsf Challenge ~/challenge"
+alias mountansible="mount -t vboxsf FormationAnsible ~/Documents/formationAnsible"
+
+# Python
+
+alias pythonServer="python -m SimpleHTTPServer"
+
+# Cd
+alias cdescalation="cd /root/challenge/Script/EscalationPrivilege"
+alias cdwebshell="cd /root/challenge/Script/WebShell"
+alias cdchallenge="cd /root/challenge"
+alias cddico="cd /root/challenge/Dico"
+
+alias cdhtblinux="cd /root/challenge/HTB/Linux"
+alias cdhtbwindows="cd /root/challenge/HTB/Windows"
+
+alias cdsense="cdhtblinux ; cd Sense"
+alias cdniveu="cdhtblinux ; cd Nineveh"
+alias cdcalamity="cdhtblinux ; cd Calamity"
+alias cdrootme="cd /root/challenge/Root-me/Ctf"
+alias cdjeeve="cdhtbwindows; cd Jeeves"
+
+# Run
+alias runopenvpn="openvpn /root/script/openvpn/noon42.ovpn"
+alias runburpsuite="java -jar /usr/bin/burpsuitePro/BurpLoader.jar"
+
+# Ping
+alias pinggoogle="ping www.google.com"
+
